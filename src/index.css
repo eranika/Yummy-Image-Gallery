@@ -85,7 +85,10 @@
   -moz-column-width: 33%;
   column-width: 33%;
   padding: 0px 12px;
-  -webkit-perspective: 1;
+  /* -webkit-perspective: 1; */
+  -webkit-column-break-inside: avoid;
+  -webkit-backface-visibility: hidden;
+
 }
 
 @media(max-width: 991px){
