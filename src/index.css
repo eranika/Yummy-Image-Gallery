@@ -1,0 +1,259 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;600;700&display=swap');
+
+
+/* base style */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Cormorant";
+  color: darkslategray;
+  background: aliceblue;
+}
+
+/* /////////////////////////////////////////////// */
+
+/* NAV */
+
+.navbar{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 700px;
+  margin: 0 auto;
+  border-bottom: 1px solid chocolate;
+}
+
+.navbar h1{
+  color: darkslategray;
+}
+
+.navbar .links{
+  margin-left: auto;
+}
+
+.navbar a{
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+.navbar a:hover{
+  color:chocolate;
+}
+
+/* /////////////////////////////////////////////// */
+
+/* APP */
+
+.content{
+  max-width: 100%;
+  margin: 20px auto;
+  padding: 20px;
+  height: 100%;
+ 
+  /* height: 90%; */
+}
+
+/* /////////////////////////////////////////////// */
+
+/* HERO */
+
+.hero{
+  max-width: 100%;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+}
+.hero h2{
+  font-size: xx-large;
+  color: chocolate;
+}
+
+/* /////////////////////////////////////////////// */
+/* GALLERY */
+
+.gallery{
+  max-width: 100%;
+  margin-top: 20px;
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  -webkit-column-width: 33%;
+  -moz-column-width: 33%;
+  column-width: 33%;
+  padding: 0px 12px;
+}
+
+@media(max-width: 991px){
+  .gallery{
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  }
+}
+
+@media (max-width: 480px){
+  .gallery{
+  -webkit-column-count: 1;
+  -moz-column-count: 1;
+  column-count: 1;
+  -webkit-column-width: 100%;
+  -moz-column-width: 100%;
+  column-width: 100%;
+  }
+}
+
+
+.imglist{
+    max-width: 100%;
+}
+
+.imglist .image{
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease;
+  cursor: pointer;
+  margin-bottom: 12px;
+  opacity: 0.8;
+}
+
+.imglist .image img{
+  width: 100%;
+}
+.imglist .image a{
+  text-decoration: none; 
+}
+
+.imglist .image:hover{
+  transform: scale(1.03);
+  opacity: 1;
+}
+
+.imglist .image img:hover{
+  border-radius: 5px;
+  
+}
+
+
+.imglist .image a:hover{ 
+  text-decoration: 1px solid underline chocolate;
+}
+
+.img-detail{
+  /* box-sizing: border-box; */
+  max-width: 700px;
+  margin: 20px auto;
+  /* align-content: center; */
+   /* column-count: 1; */
+   /* column-width: 40%; */
+}
+
+.img-detail article{
+  /* margin: 5px auto; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-detail h2{
+  text-align: center;
+  font-size:x-large;
+  color: chocolate;
+  margin-bottom: 40px;
+}
+
+.img-detail img{
+  width: 80%;
+}
+
+.img-detail p{
+  margin: 20px 0px;
+  font-size: large;
+}
+
+.img-detail button{
+  padding: 20px;
+  border-radius: 5px;
+  background-color: chocolate;
+  color: black;
+  width: 50%;
+  font-size: medium;
+  font-weight: 600;
+  border-style: none;
+}
+
+/* CREATE */
+.create{
+  width: 700px;
+  margin: 20px auto;
+}
+
+.create h2{
+  text-align: center;
+  color: chocolate;
+  margin: 40px;
+}
+.create form{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.create form label{
+  width: 60%;
+  margin: 30px;
+  font-size: large;
+}
+
+.create form label input{
+  margin-left: 30px;
+  width: 70%;
+
+}
+
+
+.create form label input[type=text]{
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid chocolate;
+  transition: 0.4s; 
+
+}
+
+.create form label input[type=file]{
+  padding: 40px;
+  font-family: "Cormorant";
+  font-size:small;
+  color: chocolate;
+}
+
+
+.create form button{
+  padding: 20px;
+  border-radius: 5px;
+  background-color: chocolate;
+  color: black;
+  width: 30%;
+  font-size: medium;
+  font-weight: 600;
+  border-style: none;
+}
+
+@media(max-width: 991px){
+  .create{
+  width: 100%;
+  }
+}
+
+@media (max-width: 480px){
+  .create{
+  width: 100% ;
+  }
+  .create form button{
+    width: 100%;
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "images": [
+    {
+      "name": "A Meat Meal!",
+      "id": 1,
+      "imgsrc": "/img/1.jpg",
+      "dateCreated": "October 13 2023"
+    },
+    {
+      "name": "A Healthy Veg-Tofu Bowl!",
+      "id": 2,
+      "imgsrc": "/img/2.jpg",
+      "dateCreated": "October 4 2023"
+    },
+    {
+      "name": "Yum Pancakes with Honey!",
+      "id": 3,
+      "imgsrc": "/img/3.jpg",
+      "dateCreated": "September 13 2023"
+    },
+    {
+      "name": "It's Pizzza!",
+      "id": 4,
+      "imgsrc": "/img/4.jpg",
+      "dateCreated": "November 13 2023"
+    },
+    {
+      "name": "Raspberry Cheese Cake Blast!",
+      "id": 5,
+      "imgsrc": "/img/5.jpg",
+      "dateCreated": "January 5 2023"
+    },
+    {
+      "name": "Bluberry Toast Plate!",
+      "id": 6,
+      "imgsrc": "/img/6.jpg",
+      "dateCreated": "April 17 2023"
+    },
+    {
+      "name": "Pesto Pasta!",
+      "id": 7,
+      "imgsrc": "/img/7.jpg",
+      "dateCreated": "November 6 2023"
+    },
+    {
+      "name": "Meaty Balls!",
+      "id": 8,
+      "imgsrc": "/img/8.jpg",
+      "dateCreated": "October 14 2023"
+    },
+    {
+      "name": "Spice Hit Pasta Bowl!",
+      "id": 9,
+      "imgsrc": "/img/9.jpg",
+      "dateCreated": "December 25 2023"
+    },
+    {
+      "name": "Deep Fried Patty Burger!",
+      "id": 10,
+      "imgsrc": "/img/10.jpg",
+      "dateCreated": "March 15 2023"
+    }
+  ]
+}

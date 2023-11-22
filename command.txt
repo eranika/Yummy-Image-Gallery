@@ -1,0 +1,8 @@
+1.  npx create-react-app firstName-secondName
+2.  npm run start
+3.  npx json-server --watch data/db.json --port 8000
+4.  npm install react-router-dom@5
+5.  npm install -g firebase-tools
+6.  firebase login
+7.  firebase init
+8.  firebase deploy --only hosting
